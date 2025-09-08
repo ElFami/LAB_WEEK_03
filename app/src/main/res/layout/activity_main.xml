@@ -9,6 +9,11 @@
     tools:context=".MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_list"
         android:name="com.example.lab_week_03.ListFragment"
         android:layout_width="match_parent"
